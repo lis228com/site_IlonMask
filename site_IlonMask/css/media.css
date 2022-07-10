@@ -1,0 +1,72 @@
+@media(max-width: 1330px){
+    .right_side{
+        display: grid;
+        grid-template-columns: 100px 100px;
+        grid-template-rows: 100px 100px;
+        text-align: center;
+        gap: 10px;
+    }
+    .header{
+        height: 75px;
+    }
+    .ugol_1{
+        padding:60px 0px;
+    }
+    .ugol_2{
+    
+    }
+    .ugol_3{
+        padding: 60px 25px 0px 0px;
+        left: 38% auto;
+    }
+    .ugol_4{
+        left: 38% auto;
+    
+    }
+        /* padding:35px 20px; */
+    .block_text_1,
+    .block_text_3,
+    .block_text_11,
+    .block_text_33,
+    .block_text_111,
+    .block_text_333,
+    .block_text_1111,
+    .block_text_3333{
+        font-family: 'MuseoSansCyrl-100';
+        font-size: 15px;
+    }
+    .block_text_2,
+    .block_text_22,
+    .block_text_222,
+    .block_text_2222{
+        font-family: 'MuseoSansCyrl-700';
+        font-size: 20px;
+        padding: 20px 0px 5px 0px;
+    }
+}
+@media(max-width: 1170px){
+    .zagolovok_1{
+        font-size: 40px;
+    }
+    .zagolovok_2{
+        font-family: 'MuseoSansCyrl-300';
+        font-size: 22px;
+        padding: 0px auto;
+    }
+}
+@media(max-width: 1120px){
+    ul,
+    li{
+        font-size: 12px;
+    }
+}
+@media(max-width: 992px){
+
+}
+@media(max-width: 900px){
+    .right_side{
+        display: flex;
+        padding: 320px 0px 0px 0px;
+    }
+}
+    

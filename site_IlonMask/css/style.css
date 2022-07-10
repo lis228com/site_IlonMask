@@ -1,0 +1,215 @@
+@font-face {
+	font-family: 'MuseoSansCyrl-100';
+	src: url('../fonts/museosanscyrl-100.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/museosanscyrl-100.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/museosanscyrl-100.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/museosanscyrl-100.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/museosanscyrl-100.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/museosanscyrl-100.svg#museosanscyrl-100') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+	font-family: 'MuseoSansCyrl-300';
+	src: url('../fonts/museosanscyrl-300.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/museosanscyrl-300.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/museosanscyrl-300.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/museosanscyrl-300.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/museosanscyrl-300.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/museosanscyrl-300.svg#museosanscyrl-300') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+	font-family: 'MuseoSansCyrl-700';
+	src: url('../fonts/museosanscyrl-700.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/museosanscyrl-700.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/museosanscyrl-700.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/museosanscyrl-700.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/museosanscyrl-700.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/museosanscyrl-700.svg#museosanscyrl-700') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'MuseoSansCyrl-300';
+    font-size: 16px;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+body{
+    background-image: url(../img/fon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image: url(../images/slider-fon.jpg); */
+}
+.header{
+    height: 100px;
+    border: 1px solid #41353c;
+    background: rgba(0, 0, 0, .4);
+
+    /* opacity: 0.6; */
+    /* background-color: #150a01; */
+    
+}
+.ugol_1,
+.ugol_2,
+.ugol_3,
+.ugol_4,
+.shtrih1,
+.shtrih2{
+    position: absolute;
+}
+.ugol_1{
+    padding: 84px 0px;
+}
+.ugol_2{
+
+}
+.ugol_3{
+    padding: 84px 25px 0px 0px;
+    left: 38% auto;
+}
+.ugol_4{
+    left: 38% auto;
+
+}
+.header__logo{
+    padding: 26px 30px 40px;
+}
+.menu li{
+    /* float: right; */
+    /* color: #fff !important; */
+    display: inline-block;
+    padding: 42px 0px;
+}
+.menu a:hover{
+    padding-bottom: 5px;
+    border-bottom: 1.2px solid #4d4d4d;
+    color: #b1b1b1;
+    /* text-transform: capitalize; */
+}
+.menu a{
+    /* float: right; */
+    /* padding: 0px 42px; */
+    padding: 0px 20px;
+    color: #fff;
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    color: #fff;
+}
+.left_and_right{
+    display: flex;
+    justify-content: space-between;
+}
+.gradient{
+    background-image: linear-gradient(to left, #ff4107, #fff);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+/* .line{ */
+    /* position: relative; */
+    /* top: 0%; */
+    /* left: 25%; */
+/* } */
+.zagolovok_1{
+    /* position: absolute; */
+    font-family: 'MuseoSansCyrl-700';
+    font-size: 55px;
+    padding: 50px 0px 15px 5px;
+    letter-spacing: 5px;
+    /* z-index: 2; */
+}
+.zagolovok_2{
+    font-family: 'MuseoSansCyrl-300';
+    font-size: 27px;
+    padding: 0px auto;
+}
+.zagolovok_3-border{
+    padding: 80px 0px 0px 5px;
+}
+.zagolovok_3{
+    font-family: 'MuseoSansCyrl-100';
+    font-size: 14px;
+    max-width: 185px;
+    padding: 13px 23px;
+    border: 1px solid;
+    border-image: linear-gradient(45deg,#101f2d 10%, #5880b3 50%,#101f2d 60%, #5880b3 100%);
+    border-image-slice: 1;
+}
+.block_text_1,
+.block_text_3,
+.block_text_11,
+.block_text_33,
+.block_text_111,
+.block_text_333,
+.block_text_1111,
+.block_text_3333{
+    font-family: 'MuseoSansCyrl-100';
+    font-size: 20px;
+}
+.block_text_2,
+.block_text_22,
+.block_text_222,
+.block_text_2222{
+    font-family: 'MuseoSansCyrl-700';
+    font-size: 30px;
+    padding: 30px 0px 10px 0px;
+}
+.right_side{
+    display: grid;
+    grid-template-columns: 160px 160px;
+    grid-template-rows: 160px 160px;
+    text-align: center;
+    gap: 10px;
+    padding:35px 20px;
+
+}
+.block{
+    box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.35);
+    padding: 10px 10px;
+    color: #e4e4e4;
+}
+
+  
+
+.block-1{
+    box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.35);
+    background-image: -moz-linear-gradient( 180deg, rgb(161,161,161) 0%, rgb(255,255,255) 100%);
+    padding: 10px 10px;
+    color: #acacac;
+}
+.block-2{
+    box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.35);
+    padding: 10px 10px;
+    color: #e4e4e4;
+}
+.block-3{
+    box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.35);
+    background-image: -ms-linear-gradient( 180deg, rgb(161,161,161) 0%, rgb(255,255,255) 100%);
+    padding: 10px 10px; 
+    color: #acacac;
+}
+.center_side{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.531;
+    left: 625px;
+    bottom: 340px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
